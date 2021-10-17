@@ -3,9 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  margin: 0;
   padding: 0;
-  border: red solid 1px;
   margin: 24px 48px 56px;
 }
 @media (max-width: 320px) {
