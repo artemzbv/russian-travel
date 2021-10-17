@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto 24px;
+  padding-top: 92px;
+  max-width: 1184px;
+  border: red solid 1px;
+}
+
+@media (max-width: 320px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: 16px;
+    padding-top: 64px;
+  }
+}

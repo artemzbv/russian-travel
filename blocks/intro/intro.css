@@ -1,0 +1,12 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-top: 92px;
+  margin-left: 148px;
+}
+@media (width: 320px) {
+  .intro {
+    margin-left: 16px;
+  }
+}

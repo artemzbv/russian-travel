@@ -1,0 +1,16 @@
+.footer__link {
+  margin-right: 18px;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (max-width: 320px) {
+  .footer_link {
+    font-size: 24px;
+    line-height: 56px;
+    padding-top: 30px;
+  }
+}
