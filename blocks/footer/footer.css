@@ -9,8 +9,14 @@
 
 @media (max-width: 320px) {
   .footer {
-    display: flex;
+    padding-top: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
     flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     margin-left: 16px;
     padding-top: 64px;
