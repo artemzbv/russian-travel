@@ -1,27 +1,21 @@
 .header__lang-link {
   font-size: 24px;
-  /* identical to box height, or 117% */
+  line-height: 28px;
   text-align: right;
   color: #ffffff;
-  margin-left: 18px;
+  margin: 0;
   margin-top: 46px;
-  padding: 0;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-.header__lang-link:focus {
-  outline: none;
-}
-
-.header__lang-link:disabled {
   text-decoration: none;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 320px) {
   .header__lang-link {
-    margin-top: 30px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 0px;
   }
 }
