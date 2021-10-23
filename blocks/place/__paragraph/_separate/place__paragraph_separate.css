@@ -1,7 +1,0 @@
-.place__paragraph_separate {
-  margin: 0;
-}
-
-.place__paragraph_separate:nth-child(2) {
-  margin-top: 25px;
-}
