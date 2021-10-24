@@ -8,9 +8,18 @@
   /* or 122% */
   text-align: center;
 }
+
+@media (max-width: 420px){
+.cover__subtitle {
+  top: 17px;
+  font-size: 15px;
+  line-height:15px;
+  max-width: 300px;
+}
+}
+
 @media (max-width: 320px) {
   .cover__subtitle {
-    position: relative;
     top: 16px;
     font-size: 14px;
     line-height: 16px;
