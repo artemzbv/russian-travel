@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   align-self: start;
-  word-wrap: break-word;
 }
 
 @media (max-width: 1024px) {
