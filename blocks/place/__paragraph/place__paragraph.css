@@ -1,11 +1,12 @@
 .place__paragraph {
+  max-width: 484px;
   font-size: 18px;
   line-height: 163%;
   color: #ffffff;
-  max-width: 484px;
   margin: 0;
   padding: 0;
   align-self: start;
+  word-wrap: break-word;
 }
 
 @media (max-width: 1024px) {
