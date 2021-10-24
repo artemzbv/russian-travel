@@ -1,0 +1,8 @@
+.place__paragraph-separate {
+  margin: 0;
+  padding: 0;
+}
+
+.place__paragraph-separate:nth-child(2) {
+  margin-top: 25px;
+}
