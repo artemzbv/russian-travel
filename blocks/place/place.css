@@ -24,6 +24,7 @@
   .place {
     gap: 48px 28px;
     margin-top: 73px;
+    align-items: start;
   }
 }
 
