@@ -6,7 +6,6 @@
 
 @media (max-width: 320px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
     justify-items: space-between;
     padding-bottom: 20px;
